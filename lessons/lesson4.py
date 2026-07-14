@@ -31,6 +31,8 @@ class Test:
         return str(self.value)
 
     def __add__(self, other):
+
+        # if type(self) == type(other)
        return self.value + other.value
 
     def __lt__(self, other):
@@ -102,7 +104,7 @@ class BankAccount:
         self._balance = balance
         self.__bonus = bonus
     def get_name(self):
-        return self.name
+        return self.name.
 
     @classmethod
     def get_bank_name(cls):
@@ -127,6 +129,7 @@ class BankAccount:
 
 
 ardager_1 = BankAccount('Name', 100, 50)
+ardager_2 = BankAccount(ardager_1, 100, 50)
 print(ardager_1.name)
 ardager_1.name = "Ардагер"
 print(ardager_1.name)
