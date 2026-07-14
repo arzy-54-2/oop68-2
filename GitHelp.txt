@@ -46,6 +46,24 @@ git restore .
 
 git reset .
 
+7) Проверка на кокой я ветке и список веток
+git branch
+
+8) Создание ветки
+git branch branch_name
+
+9) Переключение на  ветку
+git switch branch_name
+
+
+production
+test
+        | stage
+dev
 
 feat/register
-fix/register
+
+-m "feat: added  register link"
+-m "fix: register logik"
+-m "HotFix: register "
+-m "update: register "
