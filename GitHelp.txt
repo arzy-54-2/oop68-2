@@ -67,3 +67,16 @@ feat/register
 -m "fix: register logik"
 -m "HotFix: register "
 -m "update: register "
+
+# Создание вируального окружения
+py -m venv name_venv
+python -m venv name_venv
+python3 -m venv name_venv
+
+
+# Активация виртуального окружения
+source name_venv/bin/activate      для  MacOS
+name_venv\Scripts\activate     для Windows в терминале comond prompt
+source name_venv/Scripts/activate   для Windows в терминале Git Bash
+
+
